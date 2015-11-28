@@ -4,10 +4,10 @@
   <%= @survey.title %>
   <% @survey.questions.each do |q| %>
     <li>
-      <%= q.title %>
+      <li class"question_title"><%= q.title %></li>
     </li>
     <% q.responses.each do |response| %>
-      <%= response.title %>
+      <li class"reponse_title"><%= response.title %></li>
     <% end %>
   <% end %>
 </p>
