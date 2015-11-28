@@ -5,6 +5,8 @@ Rails.application.routes.draw do
   resources :responses
   resources :questions
   root to: 'surveys#home'
+  get 'dashboard' => 'students#dashboard'
+  get 'improving_human_values' => 'students#improving_human_values'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
