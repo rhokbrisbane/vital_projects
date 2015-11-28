@@ -27,6 +27,7 @@ class QuestionsController < ApplicationController
   # POST /questions
   # POST /questions.json
   def create
+    binding.pry
     @question = Question.new(question_params)
 
     respond_to do |format|
@@ -72,6 +73,6 @@ class QuestionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def question_params
-      params.require(:question).permit(:title)
+      params.require(:question).permit(:title, :survey_id, responses_attributes: [:id, :title, :_destroy])
     end
 end
