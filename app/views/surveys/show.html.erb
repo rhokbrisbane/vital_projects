@@ -1,8 +1,8 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <%= @survey.title %>
-  <% @survey.questions.each do |q| %>
+  <div class"survey_title"><%= @survey.title %></div>
+  <div class"survey_question"><% @survey.questions.each do |q| %></div>
     <li>
       <li class"question_title"><%= q.title %></li>
     </li>

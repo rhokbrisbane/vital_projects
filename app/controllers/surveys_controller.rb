@@ -7,6 +7,10 @@ class SurveysController < ApplicationController
     @surveys = Survey.all
   end
 
+  def home
+
+  end
+
   # GET /surveys/1
   # GET /surveys/1.json
   def show
