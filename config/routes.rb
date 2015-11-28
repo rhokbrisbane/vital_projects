@@ -1,10 +1,21 @@
 Rails.application.routes.draw do
-  devise_for :students
+  # devise_for :students
   resources :surveys
   resources :responses
   resources :responses
   resources :questions
   root to: "surveys#index"
+
+# devise_scope :user do
+#   get "sign_out", to: "students/sessions#destroy"
+# end
+
+  # devise_for :students, controllers: { sessions: "students/sessions" }
+  Rails.application.routes.draw do
+    devise_for :students, controllers: {
+      sessions: 'students/sessions'
+    }
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
