@@ -15,3 +15,6 @@
 //= require turbolinks
 //= require_tree .
 //= require jquery_nested_form
+// "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+//= require jquery
+//= require bootstrap-sprockets
