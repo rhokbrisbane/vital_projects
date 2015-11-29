@@ -1,37 +1,30 @@
-<div id="call-to-action-space">
-  <ul>
-    <li id="cta-button" class="glyphicon glyphicon-arrow-right"></li>
-    <li id="cta-label">
-        <button type="button" class="btn btn-default btn-lg">
-            <%= link_to "Let’s get started!", new_student_registration_path %>
-        </button>
-    </li>
-</div>
+    <section id="main-slider">
+        <div class="owl-carousel">
+            <div class="item" style="background-image: url(http://s18.postimg.org/r95zesa61/mountain_lake_984482_1920.jpg);">
+                <div class="slider-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="carousel-content">
+                                    <div class = "slider_title">What do we do?</div>
+                                    <div class = "slider_caption">A unique and powerful not-for-profit training program designed to release the potential within everybody.</div>
+                                    <button type="button" class="btn btn-default btn-lg">
+                                        <%= link_to "Get started", new_student_registration_path %>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.owl-carousel-->
+    </section><!--/#main-slider-->
 
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 
   <a  name="services"></a>
-    <div class="content-section-a">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Welcome to V.I.T.AL ProJex:</h2>
-                    <p class="lead">A unique and powerful not-for-profit training program designed to release the potential within everybody.</p>
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <div class="img-responsive hero-image">
-                      <%=image_tag("hero-img-1.jpg")%>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-        <!-- /.container -->
-
-    </div>
     <!-- /.content-section-a -->
     <div class="content-section-b">
 

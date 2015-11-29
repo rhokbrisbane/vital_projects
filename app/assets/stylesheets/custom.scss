@@ -6,11 +6,41 @@
 a{
   color: #232323 !important;
 }
+
+header#header {
+    padding-bottom: 7.3em;
+}
+
+.carousel-content {
+    padding-top: 11em;
+    padding-bottom: 13em;
+}
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    padding-top: 1.5em;
+}
+
+.slider_title {
+    font-size: 3em;
+    font-weight: 900;
+    color: #fff;
+}
+
+.slider_caption {
+    font-size: 1.5em;
+    color: #ffffff;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+
 .navbar {
 
   margin-bottom: 0px;
-  height: 200px;
-  background-color: #0068A9 !important;
+  height: 102px;
+  background-color: #ffffff !important;
 }
 
 footer.footer {
@@ -18,7 +48,7 @@ footer.footer {
 }
 
 a.navbar-brand img{
-  width: 400px;
+  width: 147px;
   text-align: center;
 }
 
