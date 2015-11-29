@@ -1,7 +1,11 @@
 <div id="call-to-action-space">
   <ul>
     <li id="cta-button" class="glyphicon glyphicon-arrow-right"></li>
-    <li id="cta-label">Get Started...</li>
+    <li id="cta-label">
+        <button type="button" class="btn btn-default btn-lg">
+            <%= link_to "Let’s get started!", new_student_registration_path %>
+        </button>
+    </li>
 </div>
 
 <p class="notice"><%= notice %></p>
