@@ -1,0 +1,16 @@
+<div class="container">
+  <div class=“row”>
+    <div class="col-md-6 col-md-offset-3">
+      <div class="panel panel-primary">
+        <div class="panel-body">
+          <%= simple_form_for @student, :url => create_student_path, :method => :post, html: { multipart: true } do |f| %>
+            <%= f.input :email, label:"students email"%>
+            <%= f.input :password %>
+            <%= f.input :password_confirmation %>
+            <%= f.button :submit, "Create Student", class: "btn btn-default" %>
+          <% end %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
