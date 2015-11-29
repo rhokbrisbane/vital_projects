@@ -1,9 +1,98 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #232323 !important;
+}
 .navbar {
 
   margin-bottom: 0px;
-
+  height: 200px;
+  background-color: #0068A9 !important;
 }
 
 footer.footer {
     background-color: #D2D2D2;
+}
+
+a.navbar-brand img{
+  width: 400px;
+  text-align: center;
+}
+
+li#vital-logo img{
+  width: 200px;
+}
+li#vital-logo{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000 !important;
+}
+
+div#logo ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+div#call-to-action-space{
+  text-align: center;
+  background-image: url(mountain-lake-984482_1920.jpg);
+  background-size: fit;
+  background-position: center;
+  height: 700px;
+  padding-top: 150px;
+}
+
+div#call-to-action-space ul li{
+  list-style: none;
+  text-align: center;
+}
+
+li#cta-button{
+  background-color: #ff9000;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin: 0 auto;
+  line-height: 300px;
+  font-size: 150px;
+  margin-bottom: 50px;
+}
+
+li#cta-label{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+div.hero-image img{
+  height: 400px;
+  padding-bottom: 100px;
+}
+
+footer{
+  background-color: #003A67 !important;
+  color: #ffffff !important;
+  padding: 50px 0;
+}
+
+footer ul{
+  text-align: center;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+footer p#sub-text{
+  font-size: 12px !important;
 }
