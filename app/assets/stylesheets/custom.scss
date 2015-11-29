@@ -1,9 +1,49 @@
 .navbar {
 
   margin-bottom: 0px;
-
+  height: 200px;
+  background-color: #0068A9 !important;
 }
 
 footer.footer {
     background-color: #D2D2D2;
+}
+
+li#no-limits-logo img{
+  width: 400px;
+  text-align: center;
+}
+
+li#vital-logo img{
+  width: 350px;
+}
+
+div#logo ul li{
+  list-style: none;
+  display: inline-block;
+}
+
+div#call-to-action-space{
+  text-align: center;
+  background-image: url(mountain-lake-984482_1920.jpg);
+  background-size: contain;
+}
+
+div#call-to-action-space ul li{
+  list-style: none;
+  text-align: center;
+}
+
+li#cta-button{
+  background-color: green;
+  width: 300px;
+  height: 300px;
+  border-radius: 300px;
+  margin: 0 auto;
+  line-height: 300px;
+  font-size: 150px;
+}
+
+li#cta-label{
+  font-size: 30px;
 }
