@@ -7,6 +7,9 @@ Rails.application.routes.draw do
   root to: 'surveys#home'
   get 'dashboard' => 'students#dashboard'
   get 'improving_human_values' => 'students#improving_human_values'
+  get 'new_student' => 'students#new'
+  get 'student_list' => 'students#index'
+  post 'create_student' => 'students#create'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
