@@ -1,3 +1,11 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #232323 !important;
+}
 .navbar {
 
   margin-bottom: 0px;
@@ -9,13 +17,18 @@ footer.footer {
     background-color: #D2D2D2;
 }
 
-li#no-limits-logo img{
+a.navbar-brand img{
   width: 400px;
   text-align: center;
 }
 
 li#vital-logo img{
-  width: 350px;
+  width: 200px;
+}
+li#vital-logo{
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #000000 !important;
 }
 
 div#logo ul li{
@@ -26,7 +39,10 @@ div#logo ul li{
 div#call-to-action-space{
   text-align: center;
   background-image: url(mountain-lake-984482_1920.jpg);
-  background-size: contain;
+  background-size: fit;
+  background-position: center;
+  height: 700px;
+  padding-top: 150px;
 }
 
 div#call-to-action-space ul li{
@@ -35,15 +51,48 @@ div#call-to-action-space ul li{
 }
 
 li#cta-button{
-  background-color: green;
+  background-color: #ff9000;
   width: 300px;
   height: 300px;
   border-radius: 300px;
   margin: 0 auto;
   line-height: 300px;
   font-size: 150px;
+  margin-bottom: 50px;
 }
 
 li#cta-label{
   font-size: 30px;
+  font-weight: bold;
+}
+
+div.hero-image img{
+  height: 400px;
+  padding-bottom: 100px;
+}
+
+footer{
+  background-color: #003A67 !important;
+  color: #ffffff !important;
+  padding: 50px 0;
+}
+
+footer ul{
+  text-align: center;
+}
+
+footer ul li{
+  list-style: none;
+  display: inline-block;
+  padding-left: 30px;
+}
+
+footer p{
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+footer p#sub-text{
+  font-size: 12px !important;
 }
